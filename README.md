@@ -1,5 +1,7 @@
 # robofruit
 
+![Alt text](https://github.com/rick-dn/functional-adl-reco/blob/main/functional_adl_dataset.png)
+
 A repository for our paper titled "Strawberry picking point localization ripeness and weight estimation"
 DOI: https://doi.org/10.1109/ICRA46639.2022.9812303
 
