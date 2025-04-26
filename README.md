@@ -1,4 +1,5 @@
 # robofruit
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FICRA46639.2022.9812303-blue)](https://doi.org/10.1109/ICRA46639.2022.9812303)
 
 ![Alt text](https://github.com/rick-dn/robofruit/blob/main/icra_2022_strawberry_final.pdf.png)
 
