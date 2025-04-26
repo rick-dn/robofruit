@@ -3,8 +3,28 @@
 
 ![Alt text](https://github.com/rick-dn/robofruit/blob/main/icra_2022_strawberry_final.pdf.png)
 
-A repository for our paper titled "Strawberry picking point localization ripeness and weight estimation"
-DOI: https://doi.org/10.1109/ICRA46639.2022.9812303
+****Summary****
 
-In this paper we present two novel datasets of strawberries annotated with picking points, key-points (such as the shoulder points, the contact point between the calyx and flesh, and the point on the flesh farthest from the calyx), and the weight and size of the berries. We performed experiments with Detectron-2, which is an extended version of Mask-RCNN with key-points detection capability. The results show that the key-points detection approach works well for picking and grasping point localization. The second dataset also presents the dimensions and weight of strawberries. Our novel baseline model for weight estimation outperforms many state-of-the-art deep networks. The datasets and annotations are also available at 
-https://github.com/imanlab/strawberry-pp-w-r-dataset.
+This repository contains the code and datasets for our paper "Strawberry picking point localization ripeness and weight estimation" by Tafuro et al.
+
+In this paper, we address the challenges of robotic strawberry harvesting, focusing on the crucial aspect of fruit picking perception. We highlight the difficulties in accurately determining picking points due to factors like noise, occlusion, and the varying shapes and orientations of strawberries.
+
+To tackle these issues, we present two novel datasets of strawberries. These datasets are unique in that they are annotated with not only picking points but also key-points on the strawberries, information about their weight and size, and "pluckability" (suitability for picking).
+
+We conducted experiments using Detectron-2, a Mask-RCNN-based model with key-point detection capabilities. Our results demonstrate that the key-point detection approach is effective for localizing picking and grasping points. Furthermore, we introduce a novel baseline model for weight estimation that outperforms several state-of-the-art deep networks.
+
+****Key Contributions****
+
+* We introduce two novel datasets of strawberries, containing annotations for picking points, key-points, weight, and size.
+   
+* We present a method for picking point and orientation detection using key-point detection.
+   
+* We propose a novel baseline method for weight estimation that outperforms several state-of-the-art deep networks.
+
+****Important Notes****
+
+* The datasets and annotations are available at [https://github.com/imanlab/strawberry-pp-w-r-dataset](https://github.com/imanlab/strawberry-pp-w-r-dataset).
+   
+* This repository provides the code and datasets for our research.
+   
+* For detailed information about the dataset, model architecture, experimental setup, and results, please refer to the original paper.
