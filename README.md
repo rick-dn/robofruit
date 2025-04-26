@@ -28,3 +28,14 @@ We conducted experiments using Detectron-2, a Mask-RCNN-based model with key-poi
 * This repository provides the code and datasets for our research.
    
 * For detailed information about the dataset, model architecture, experimental setup, and results, please refer to the original paper.
+
+  ****For citing this work****
+
+  @inproceedings{tafuro2022strawberry,
+  title={Strawberry picking point localization ripeness and weight estimation},
+  author={Tafuro, Alessandra and Adewumi, Adeayo and Parsa, Soran and Amir, Ghalamzan E and Debnath, Bappaditya},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+  pages={2295--2302},
+  year={2022},
+  organization={IEEE}
+}
